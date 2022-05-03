@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <title>롤 밴픽 UI</title>
+
+    <link href="./style.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="overlay">
+      <!-- <img src="overlay2.png" alt="overlay" style="z-index: 100" /> -->
+      <!-- <img src="underlay.png" alt="underlay" style="z-index: -100" /> -->
+
+      <!-- <div id="bar">
+        <div class="blue text flex-vcenter">
+          <span class="big-text" id="blue_name">테스트 팀 1</span>
+        </div>
+        <div class="blue timer flex-vcenter">
+          <span class="middle-text" id="blue_timer">:00</span>
+        </div>
+        <div class="middle">
+          <div class="top flex-vcenter">
+            <span class="score-text" id="score">0 - 0</span>
+          </div>
+          <div class="bot flex-vcenter">
+            <span class="phase-text" id="phase">PICK PHASE 2</span>
+          </div>
+        </div>
+        <div class="red timer flex-vcenter">
+          <span class="middle-text" id="red_timer">:00</span>
+        </div>
+        <div class="red text flex-vcenter">
+          <span class="big-text" id="red_name">테스트 팀 2</span>
+        </div>
+      </div> -->
+
+      <div id="bar">
+        <div class="blue text flex-vcenter">
+          <div class="label"></div>
+          <span class="big-text" id="blue_name">테스트 팀 1</span>
+          <div class="blue timer flex-vcenter">
+            <span class="middle-text" id="blue_timer">:00</span>
+          </div>
+        </div>
+        <div class="middle">
+          <!-- <div class="top flex-vcenter"> -->
+          <span class="score-text" id="score">0 - 0</span>
+          <!-- </div> -->
+          <!-- <div class="bot flex-vcenter">
+            <span class="phase-text" id="phase">PICK PHASE 2</span>
+          </div> -->
+        </div>
+        <div class="red text flex-vcenter">
+          <div class="red timer flex-vcenter">
+            <span class="middle-text" id="red_timer">:00</span>
+          </div>
+          <span class="big-text" id="red_name">테스트 팀 2</span>
+          <div class="label"></div>
+        </div>
+      </div>
+
+      <div class="main">
+        <div class="picks blue" id="picks_blue"></div>
+        <div class="screen"></div>
+        <div class="picks red" id="picks_red"></div>
+      </div>
+
+      <div class="bans blue" id="bans_blue"></div>
+      <div class="slogans">
+        <div class="slogan blue">
+          <h4></h4>
+          <p></p>
+        </div>
+        <div class="slogan red">
+          <h4></h4>
+          <p></p>
+        </div>
+      </div>
+      <div class="match">
+        <h2 class="title">finals</h2>
+        <h4 class="patches">v 12.8.1</h4>
+      </div>
+      <div class="bans red" id="bans_red"></div>
+    </div>
+
+    <img src="./bottom.png" alt="" srcset="" class="bottom" />
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="./frontend-lib.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
